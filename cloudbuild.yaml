@@ -1,7 +1,4 @@
 steps:
-  - name: Install Requirements
-  - args: ['pip', '-r', 'requirements.txt']
-
   - name: gcr.io/docker-build/docker
   - args: ['build', '-t', 'us.gcr.io/sainathcloudcomputing/cloudproject/myimage:latest']
 
