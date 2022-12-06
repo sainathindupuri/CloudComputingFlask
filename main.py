@@ -12,6 +12,7 @@ from google.api_core import retry
 import json
 import os
 import copy
+
 app = Flask(__name__)
 model = pickle.load(open('random_forest_regression_model1.pkl', 'rb'))
 PUB_SUB_TOPIC = "product-pubsub"
