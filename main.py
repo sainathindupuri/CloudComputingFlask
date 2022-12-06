@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, abort
-import jsonify
 import requests
 import traceback
 import pickle
