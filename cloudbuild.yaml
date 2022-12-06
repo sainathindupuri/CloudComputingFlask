@@ -1,6 +1,6 @@
 steps:
   - name: gcr.io/cloud-builders/docker
-  - args: ['build', '-t', 'us.gcr.io/sainathcloudcomputing/cloudproject/myimage:latest']
+  - args: ['build', '-t', 'us.gcr.io/sainathcloudcomputing/cloudproject/myimage:latest', '.']
 
   - name: gcr.io/cloud-builders/docker
   - args: ['push', 'us.gcr.io/sainathcloudcomputing/cloudproject/myimage:latest']
